@@ -74,34 +74,32 @@ El proyecto está desarrollado en R, un lenguaje orientado al análisis estadís
 
 ## Librerías
 
-# 1. moments
+### moments
     → Para calcular medidas de forma: asimetría (skewness) y curtosis.
     → Útil en el análisis exploratorio para evaluar si los rendimientos
       siguen una distribución normal o presentan sesgos/extremos.
 library(moments)
 
 
-# 2. readxl
+###  readxl
     → Lectura directa de archivos Excel (.xlsx).
     → Usado para importar la base de datos principal: "datos_disney_mensual.xlsx".
 library(readxl)
 
 
-# 3. tidyverse
-   → Conjunto de paquetes esenciales:
+### tidyverse
+    → Conjunto de paquetes esenciales:
         • dplyr   → manipulación de datos (mutate, select, filter, etc.)
         • ggplot2 → gráficos (histogramas, dispersión, líneas)
         • tidyr   → limpieza y reestructuración
         • purrr   → (opcional, pero incluido)
-   → Usado en: transformación de datos, gráficos, unión de bases.
+    → Usado en: transformación de datos, gráficos, unión de bases.
 library(tidyverse)
 
 
-# 4. gt
+### gt
     → Creación de tablas profesionales y exportables (PNG, HTML, PDF).
     → Usado para presentar resultados de regresión con formato claro y listo para informes.
 library(gt)
 
-dplyr: Procesamiento de datos.
 
-xlsx: Exportación del archivo final para revisión.

@@ -6,11 +6,6 @@
 library(quantmod)
 library(openxlsx)
 library(tidyverse)
-library(sandwich)
-library(lmtest)
-library(broom)
-library(gt)
-
 
 # 1. Descargar datos históricos de Disney y del S&P500 desde Yahoo Finance
 getSymbols("DIS", src = "yahoo", from = "2000-01-01", to = "2025-12-31")

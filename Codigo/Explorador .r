@@ -5,11 +5,6 @@
 # Cargar librerías
 library(tidyverse)
 library(readxl)
-library(sandwich)
-library(lmtest)
-library(broom)
-library(gt)
-
 
 # Cargar la base de datos (ajusta el nombre del archivo si es distinto)
 df <- read_excel("datos_disney_mensual.xlsx")

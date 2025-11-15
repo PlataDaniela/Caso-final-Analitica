@@ -5,8 +5,6 @@
 # Librerías
 library(readxl)
 library(tidyverse)
-library(sandwich)
-library(lmtest)
 library(broom)
 library(gt)
 
